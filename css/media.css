@@ -1,0 +1,425 @@
+
+/*================ Brackpoint css start ================*/
+
+/*----------====== Medem screens devicest ======----------*/
+@media screen and (max-width: 991px){
+	/*--- Banner section ---*/
+	.details h1{
+		font-size: 90px;
+		line-height: 90px;
+		margin-bottom: 50px;
+	}
+
+	.all-buttons{
+		padding: 0;
+	}
+
+	/*--- Details section ---*/
+	.title-area{
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	/*===== Project one section =====*/
+	.project-one-details{
+		padding: 0;
+		float: none;
+	}
+
+	.project-one-image img{
+		margin-top: 50px;
+	}
+
+	/*===== Project two section =====*/
+	.project-two-image img{
+		margin-bottom: 30px;
+	}
+
+	.project-two-details{
+		padding: 0;
+		float: none;
+	}
+
+	/*===== Project three section =====*/
+	.project-three-details{
+		padding: 0;
+		float: none;
+		margin-bottom: 30px;
+	}
+
+	/*===== Products section =====*/
+	.product-title{
+		padding: 0;
+	}
+
+	.product-tab{
+		margin-top: 25px;
+	}
+
+	/*===== Client review section =====*/
+	.padding{
+		padding: 0;
+		margin-top: 30px;
+	}
+
+	/*===== Team section =====*/
+	.team-title{
+		padding: 0;
+	}
+
+	/*===== Footer section =====*/
+	#footer-section{
+	padding: 100px 0 20px 0;
+	}
+
+	/*===== Copyright section =====*/
+	#copyright-section{
+		padding: 50px 0 50px 0;
+	}
+
+}
+
+/*----------====== Small screens, laptops devicest ======----------*/
+@media screen and (max-width: 767px){
+	/*--- Banner section ---*/
+	.details h1{
+		font-size: 70px;
+		line-height: 70px;
+		margin-bottom: 50px;
+	}
+
+	.all-buttons{
+		padding: 0;
+	}
+
+	/*--- Details section ---*/
+	#details-section{
+		padding: 120px 0;
+	}
+
+	.title-area{
+		padding: 0;
+	}
+
+	/*===== Project one section =====*/
+	#project-one{
+		padding: 120px 0;
+	}
+
+	.project-one-details{
+		padding: 0;
+		float: none;
+	}
+
+	.project-one-image img{
+		margin-top: 50px;
+	}
+
+	/*===== Project two section =====*/
+	#project-two{
+		padding: 120px 0;
+	}
+
+	.project-two-image img{
+		margin-bottom: 30px;
+	}
+
+	.project-two-details{
+		padding: 0;
+		float: none;
+	}
+
+	/*===== Project three section =====*/
+	#project-three{
+		padding: 120px 0;
+	}
+
+	.project-three-details{
+		padding: 0;
+		float: none;
+		margin-bottom: 30px;
+	}
+
+	/* ===== Process section ===== */
+	#process-section{
+		padding: 120px 0;
+	}
+
+	.all-div i{
+		font-size: 14px;
+	}
+
+	.all-div div{
+		padding: 15px 20px;
+	}
+
+	/*===== Products section =====*/
+	#products-section{
+		padding: 120px 0;
+	}
+
+	.product-title{
+		padding: 0;
+	}
+
+	.product-small{
+		margin-top: 25px;
+	}
+
+	/*===== Client review section =====*/
+	#client-review-section{
+		padding: 120px 0;
+	}
+
+	.padding{
+		padding: 0;
+		margin-top: 30px;
+	}
+
+	/*===== Testimonial section =====*/
+	#testimolial-section{
+		padding: 120px 0;
+	}
+
+	.carousel-item p{
+		font-size: 16px;
+	}
+
+	/*===== Team section =====*/
+	#teat-section{
+		padding: 120px 0 80px 0;
+	}
+
+	.team-title{
+		padding: 0;
+	}
+
+	.team-area{
+		margin-bottom: 20px !important;
+	}
+
+	/*===== Contact section =====*/
+	#contact-section{
+		padding: 120px 0;
+	}
+
+	.contact-content{
+		margin-bottom: 50px;
+	}
+
+	/*===== Footer section =====*/
+	#footer-section{
+	padding: 100px 0 20px 0;
+	}
+
+	.footer-title-1,
+	.footer-title-2,
+	.footer-title-3{
+		padding: 0;
+		float: none;
+	}
+
+	.footer-title-1,
+	.footer-title-2{
+		margin-bottom: 50px;
+	}
+
+	/*===== Copyright section =====*/
+	#copyright-section{
+		padding: 50px 0 50px 0;
+	}
+
+}
+
+/*----------====== Mobile screen devicest ======----------*/ 
+@media screen and ( max-width: 340px ){
+
+	/*--- Common css ---*/
+	.buttons{
+		padding: 15px 30px;
+	}
+
+	.buttons-1{
+		padding: 15px 30px;
+	}
+
+	.buttons-2{
+		padding: 15px 30px;
+	}
+
+	/*--- Banner section ---*/
+	#banner-section{
+		padding: 150px 0 120px 0;
+	}
+
+	.details h1{
+		font-size: 50px;
+		line-height: 50px;
+		margin-bottom: 30px;
+	}
+
+	.all-buttons{
+		display: flex;
+		padding-left: 0;
+	}
+
+	/*--- Details section ---*/
+	#details-section{
+		padding: 100px 0;
+	}
+
+	.title-area{
+		padding-right: 0;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.title-area h2{
+		font-size: 30px;
+	}
+
+	/*--- Project one section ---*/
+	#project-one{
+		padding: 100px 0;
+	}
+
+	.project-one-details{
+		padding-right: 0;
+	}
+
+	.project-one-details .tag-h3{
+		text-align: center;
+	}
+
+	.project-one-image img{
+		margin-top: 50px;
+	}
+
+	/*--- Project two section ---*/
+	#project-two{
+		padding: 100px 0;
+	}
+
+	.project-two-image img{
+		margin-bottom: 30px;
+	}
+
+	.project-two-details{
+		padding: 0;
+		float: none;
+	}
+
+	.project-two-details .tag-h3{
+		text-align: center;
+	}
+
+	/*--- Project three section ---*/
+	#project-three{
+		padding: 100px 0;
+	}
+
+	.project-three-details{
+		padding: 0;
+		float: none;
+	}
+
+	.project-three-details .tag-h3{
+		text-align: center;
+	}
+
+	.project-three-image img{
+		margin-top: 30px;
+	}
+
+	/* ===== Process section ===== */
+	#process-section{
+		padding: 100px 0;
+	}
+
+	.all-div{
+		display: block;
+	}
+
+	.all-div .icon-big{
+		display: block;
+		margin: 10px 0;
+	}
+
+	.all-div .icon-small{
+		display: none;
+	}
+
+	/*===== Products section =====*/
+	#products-section{
+		padding: 100px 0;
+	}
+
+	.product-title{
+		padding: 0;
+	}
+
+	.margin-top-small{
+		margin-top: 25px;
+	}
+
+	/*===== Client review section =====*/
+	#client-review-section{
+		padding: 100px 0;
+	}
+
+	.padding{
+		padding: 0;
+	}
+
+	/*===== Testimonial section =====*/
+	#testimolial-section{
+		padding: 100px 0;
+	}
+
+	.carousel-item p{
+		font-size: 14px;
+	}
+
+	/*===== Team section =====*/
+	#teat-section{
+		padding: 100px 0 80px 0;
+	}
+
+	.team-title{
+		padding: 0;
+	}
+
+	/*===== Contact section =====*/
+	#contact-section{
+		padding: 100px 0;
+	}
+
+	.contact-content{
+		margin-bottom: 30px;
+	}
+
+	/*===== Footer section =====*/
+	#footer-section{
+	padding: 100px 0 50px 0;
+	}
+
+	.footer-title-1,
+	.footer-title-2,
+	.footer-title-3{
+		padding: 0;
+		float: none;
+	}
+
+	.footer-title-1,
+	.footer-title-2{
+		margin-bottom: 50px;
+	}
+
+	/*===== Copyright section =====*/
+	#copyright-section{
+		padding: 50px 0 50px 0;
+	}
+
+}
+
+/*================ Brackpoint css end ================*/
